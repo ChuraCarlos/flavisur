@@ -1,0 +1,107 @@
+html{
+	padding: 0px;
+	margin:0px;
+	width: 100%;
+	height: 100%;
+}
+body{
+	padding: 0px;
+	margin:0px;
+	width: 100%;
+	height: 100%;
+}
+/* style */
+.menus{
+	width: 100%;
+	z-index: 9999;
+}
+.esquina{
+	width: 130px;
+	height: 30px;
+}
+.logo{
+	width: 500px;
+	height: 130px;
+}
+/* fin style */
+.turnos{
+	background-color: #323232;
+}
+.fondo{
+	
+/*	height: 100vh;
+	background: url("../img/seguridad-web.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;*/
+}
+.conjunto{
+	display: flex;
+	justify-content: center;
+}
+.izquierda{
+	align-items: center;
+	justify-content: center; 
+}
+.derecha{
+	color:white;
+	-moz-transition: 0.5s;
+}
+.derecha:hover{
+	color:#FAD940;
+}
+.izquierda>img{
+	width: 60px;
+	height: 60px;
+}
+.informes{
+	font-size: 14px;
+}
+.fondo-parallax{
+	background-image: url("../img/arreglo.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 80vh;
+	overflow: hidden;
+}
+.logo-secundario{
+	width: 170px;
+	height: 200px;
+	top: 200px;
+	left: 1000px;
+	position:relative;
+}
+.logo-desenfocado{
+	position: relative;
+	width: 60px;
+}
+.uno{
+	top: 230px;
+	left: 1200px;
+	position:relative;
+}
+.dos{
+	top: 230px;
+	left: 850px;
+	position:relative;
+}
+.tres{
+	top: 400px;
+	left: 800px;
+	position:relative;
+}
+.cuatro{
+	top: 400px;
+	left: 1000px;
+	position:relative;
+}
+.cinco{
+	top: 120px;
+	left: 800px;
+	position:relative;
+}
+.logo-enfocado{
+	position: relative;
+	filter: blur(2px);
+}

@@ -1,0 +1,178 @@
+@font-face {
+  font-family: "Abel-Regular";
+  src: url("../fuentes/Abel-Regular.ttf");
+}
+@font-face {
+  font-family: "Anton-Regular";
+  src: url("../fuentes/Anton-Regular.ttf");
+}
+html{
+	padding: 0px;
+	margin:0px;
+	width: 100%;
+	height: 100%;
+}
+body{
+	padding: 0px;
+	margin:0px;
+	width: 100%;
+	height: 100%;
+}
+.esquina{
+	width: 130px;
+	height: 30px;
+}
+.presentacion{
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0,0,0,0.3);
+	z-index: 9;
+	color:white;
+}
+.contenido{
+	width: 700px;
+}
+.logo{
+	width: 500px;
+	height: 130px;
+}
+.menus{
+	width: 100%;
+	z-index: 9999;
+}
+.pilas{
+	width: 100%;
+	height: 130px;
+}
+.aviso{
+	color:white;
+}
+.ajustar{
+	width: 200px;
+	height: 100vh;
+}
+.p-pagina{
+	background-color: #323232;
+}
+.separar{
+	margin-top:6em;
+	margin-bottom:6em;
+}
+.separar-arriba{
+	margin-top:20em;
+}
+.separar-mensaje{
+	margin-top:1em;
+	margin-bottom:1em;
+	padding: 1em;
+}
+.flavisur{
+	background: url("../img/minera.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.fondo-flavisur{
+	background-image: url("../img/sol.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.fondo-black{
+	background-color: rgba(0,0,0,0.3);
+	padding-top: 4em;
+	padding-bottom: 4em;
+}
+.text-personal{
+	color:#fd7e14;
+}
+.promocionar{
+	color: #219AF7;
+}
+.auspiciar{
+	width: 150px;
+	height: 150px;
+}
+.motivo{
+	font-size: 4em;
+	font-family: "Schadow BT";
+	text-align: center;
+}
+.uno{
+	background-color: #FFCC00;
+	padding: 4em;
+}
+.dos{
+	background-color: #323232;
+	padding: 4em;
+	color: white;
+}
+.cuadros{
+	background-color: rgba(0,0,0,0.8);
+	width: 400px;
+	margin-top:10%;
+	margin-left:5%;
+}
+.inicio{
+	color: black;
+	font-size: 3em;
+	padding: 14px;
+	text-align: center;
+	font-family: "Anton-Regular";
+	background-color: #FFCC00;
+}
+.sub-inicio{
+	border-top-left-radius: 30px;
+	padding: 1em;
+	color:#FFCC00;
+	font-size: 26px;
+	font-family: "Schadow BT";
+	font-weight:600;
+}
+.mensaje{
+	padding: 0.5em;
+	font-family: "script MT Bold";
+	font-size: 23px;
+}
+.boton{
+	padding: 0.5em;
+	width: 100%;
+}
+.boton-ps{
+	padding: 3px;
+	width: 100%;
+	background-color: rgba(255, 11, 47,0);
+	color: white;
+	font-size: 20px;
+	border:1px solid rgba(255, 255, 255,1);
+	border-radius: 35px;
+	font-family: "Abel-Regular";
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+}
+.boton-ps:hover{
+	background-color: rgba(255, 11, 47,1);
+	border:1px solid rgba(255, 11, 47,1);
+}
+.personaje{
+	width: 350px;
+	height: 400px;
+	position: absolute;
+}
+.personaje>img{
+	width: 100%;
+	border-bottom: 6px solid #FFCC00;
+}
+.guion::after{
+	content:"";
+	margin-top: 10px;
+	display: block;
+	width: 60px;
+	border:3px solid #fd7e14;
+}
+.fondo-secundario{
+	background-color: #faf4ff;
+	padding-top: 10em;
+	padding-bottom: 10em;
+	margin-top: 10em; 
+}
