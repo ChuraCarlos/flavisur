@@ -58,7 +58,7 @@ body{
 	font-size: 14px;
 }
 .fondo-parallax{
-	background-image: url("../img/pesada.jpg");
+	background: linear-gradient(-70deg, rgba(255, 211, 29 ,0.8) 40%, rgb(0, 0, 0,0) 30%), url("../img/pesada.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;

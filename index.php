@@ -6,6 +6,7 @@
 	<title>flavisur-ilo</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="lib/unitegallery/dist/css/unite-gallery.css">
 	<link rel="stylesheet" type="text/css" href="lib/animate.css/animate.min.css">
 	<link rel="stylesheet" type="text/css" href="lib/fontawesome/css/fontawesome.css">
 	<link rel="stylesheet" type="text/css" href="lib/fontawesome/css/solid.css">
@@ -13,6 +14,9 @@
 	<script src="lib/jquery/jquery.js" type="text/javascript"></script>
 	<script src="lib/bootstrap/js/bootstrap.min.js"></script>
 	<script src="js/funcion.js"></script>
+	
+	<script src="lib/unitegallery/dist/js/unitegallery.min.js"></script>
+	<script src="lib/unitegallery/dist/themes/tiles/ug-theme-tiles.js"></script>
 </head>
 <body>
 
@@ -28,7 +32,7 @@
 	        <a class="nav-link" href="#">INICIO <span class="sr-only">(current)</span></a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="#">CARRERAS</a>
+	        <a class="nav-link" href="#">CARRERA</a>
 	      </li>
 	      <li class="nav-item dropdown">
 	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -127,25 +131,33 @@
 	-->
 	<div class="row follow">
 		<div class="col-md-3 invisible">
-			<img src="img/operador-1.jpg" class="pilas rounded">
+			<div class="text-center">	
+			<img src="img/carrera/helmet.png" class="pilas">
+			</div>
 			<h5 class="guion font-weight-bold text-muted mt-3 mb-3">Operacion de Equipos Pesados</h5>
 			<p>Phasellus ac lacus ut velit luctus auctor. Cras condimentum tempus posuere. Suspendisse malesuada enim nec commodo dapibus. Mauris quis felis sed mi porttitor egestas ac ac sem. Maecenas eu risus eget nisi facilisis interdum.</p>
 			<p class="text-center"><button class="btn btn-info"><i class="fas fa-eye"></i> ver mas detalles</button></p>
 		</div>
 		<div class="col-md-3 invisible">
-			<img src="img/mantenimiento.jpg" class="pilas rounded">
+			<div class="text-center">	
+			<img src="img/carrera/repair.png" class="pilas">
+			</div>
 			<h5 class="guion font-weight-bold text-muted mt-3 mb-3">Mantenimiento de Equipos Pesados</h5>
 			<p>Phasellus ac lacus ut velit luctus auctor. Cras condimentum tempus posuere. Suspendisse malesuada enim nec commodo dapibus. Mauris quis felis sed mi porttitor egestas ac ac sem. Maecenas eu risus eget nisi facilisis interdum.</p>
 			<p class="text-center"><button class="btn btn-info"><i class="fas fa-eye"></i> ver mas detalles</button></p>
 		</div>
 		<div class="col-md-3 invisible">
-			<img src="img/seguridad.jpg" class="pilas rounded">
+			<div class="text-center">	
+			<img src="img/carrera/safety.png" class="pilas">
+			</div>
 			<h5 class="guion font-weight-bold text-muted mt-3 mb-3">Seguridad Minera e Industrial</h5>
 			<p>Phasellus ac lacus ut velit luctus auctor. Cras condimentum tempus posuere. Suspendisse malesuada enim nec commodo dapibus. Mauris quis felis sed mi porttitor egestas ac ac sem. Maecenas eu risus eget nisi facilisis interdum.</p>
 			<p class="text-center"><button class="btn btn-info"><i class="fas fa-eye"></i> ver mas detalles</button></p>
 		</div>
 		<div class="col-md-3 invisible">
-			<img src="img/logistica.jpg" class="pilas rounded">
+			<div class="text-center">	
+			<img src="img/carrera/approval.png" class="pilas">
+			</div>
 			<h5 class="guion font-weight-bold text-muted mt-3 mb-3">Logistica y Almacen</h5>
 			<p>Phasellus ac lacus ut velit luctus auctor. Cras condimentum tempus posuere. Suspendisse malesuada enim nec commodo dapibus. Mauris quis felis sed mi porttitor egestas ac ac sem. Maecenas eu risus eget nisi facilisis interdum.</p>
 			<p class="text-center"><button class="btn btn-info"><i class="fas fa-eye"></i> ver mas detalles</button></p>
@@ -190,6 +202,51 @@
 </div>
 
 </div>
+
+<!-- inicio seccion galeria -->
+
+	
+	<div id="gallery" style="">
+			<img alt="primera practica" src="img/centro/DSCN6976.jpg"
+				data-image="img/centro/DSCN6976.jpg"
+				data-description="Practicas">		
+ 			<img alt="Image 2 Title" src="img/centro/DSCN6981.jpg"
+				data-image="img/centro/DSCN6981.jpg"
+				data-description="Practicas 2">
+			<img alt="Image 2 Title" src="img/centro/DSCN6999.jpg"
+				data-image="img/centro/DSCN6999.jpg"
+				data-description="Practicas 2">
+			<img alt="Image 2 Title" src="img/centro/DSCN7000.jpg"
+				data-image="img/centro/DSCN7000.jpg"
+				data-description="Practicas 2">
+			<img alt="Image 2 Title" src="img/centro/DSCN7111.jpg"
+				data-image="img/centro/DSCN7111.jpg"
+				data-description="Practicas 2">
+			<img alt="Image 2 Title" src="img/centro/DSCN7113.jpg"
+				data-image="img/centro/DSCN7113.jpg"
+				data-description="Practicas 2">
+			<img alt="Image 2 Title" src="img/centro/DSCN7114.jpg"
+				data-image="img/centro/DSCN7114.jpg"
+				data-description="Practicas 2">
+			<img alt="Image 2 Title" src="img/centro/DSCN7118.jpg"
+				data-image="img/centro/DSCN7118.jpg"
+				data-description="Practicas 2">
+			<img alt="Image 2 Title" src="img/centro/DSCN7120.jpg"
+				data-image="img/centro/DSCN7120.jp"
+				data-description="Practicas 2">
+			<img alt="Image 2 Title" src="img/centro/DSCN7122.jpg"
+				data-image="img/centro/DSCN7122.jpg"
+				data-description="Practicas 2">
+			<img alt="Image 2 Title" src="img/centro/DSCN7123.jpg"
+				data-image="img/centro/DSCN7123.jpg"
+				data-description="Practicas 2">
+			<img alt="Image 2 Title" src="img/centro/DSCN7125.jpg"
+				data-image="img/centro/DSCN7125.jpg"
+				data-description="Practicas 2">
+	</div>
+
+
+<!-- fin seccion galeria -->
 
 <footer class="p-pagina">
 	<div class="container">

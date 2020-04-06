@@ -1,4 +1,9 @@
 $(document).ready(function (){
+		$(document).ready(function(){
+
+			$("#gallery").unitegallery();
+
+		});
 	$(window).scroll(function (){
 		if($(this).scrollTop()>900){
 			$(".separar-mensaje>div").removeClass("invisible");

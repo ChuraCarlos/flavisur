@@ -58,7 +58,7 @@ body{
 	font-size: 14px;
 }
 .fondo-parallax{
-	background-image: url("../img/arreglo.jpg");
+	background: linear-gradient(-70deg, rgba(0, 0, 0,0.8) 40%, rgba(0,0,0,0) 30%), url("../img/arreglo.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;
